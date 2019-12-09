@@ -1,8 +1,8 @@
-#include "RTClib.h"
+#include <RTClib.h>
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
 #include <DHT_U.h>
-#include "./FastLED.h"
+#include <FastLED.h>
 
 #define NUM_LEDS 20
 CRGB leds[NUM_LEDS];
